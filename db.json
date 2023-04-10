@@ -1,0 +1,26 @@
+{
+  "employee": [
+    {
+      "id": 1,
+      "first_name": "Sebastian",
+      "last_name": "Eschweiler",
+      "email": "sebastian@codingthesmartway.com"
+    },
+    {
+      "id": 2,
+      "first_name": "Steve",
+      "last_name": "Palmer",
+      "email": "steve@codingthesmartway.com"
+    },
+    {
+      "name": " shital karad",
+      "profileUrl": "..\\assets\\profile-images\\Ellipse -7.png",
+      "gender": "female",
+      "departMent": "Finaance",
+      "salary": "40000",
+      "startDate": "16 Sep 2004",
+      "notes": "ok",
+      "id": 3
+    }
+  ]
+}

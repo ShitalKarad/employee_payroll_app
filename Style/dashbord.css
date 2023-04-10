@@ -1,4 +1,4 @@
-.main-content{
+.main-content {
     display: flex;
     flex-direction: column;
     /* min-height: calc(100vh - 80px); */
@@ -6,66 +6,99 @@
     padding: 30px 0 10px;
     box-sizing: border-box;
 }
-.header-content{
+
+.header-content {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     /* align-items: center; */
     width: 99%;
-    padding:0px  10px;
+    padding: 0px 10px;
 }
-.emp-detail-text{
+
+.emp-detail-text {
     font: normal normal bold 24px/25px Roboto;
     text-align: left;
     padding: 0px 10px;
-    width: 72%;
+    width: 71%;
 
 }
-.add-button{
-    
+
+.add-button {
+
     font: normal normal normal 22px/29px Roboto;
     letter-spacing: 0px;
-    color: #f7f7f7;
-    background-color: #82a70c ;
+    color: #FFFFFF;
+    background-color: #82a70c;
     border-radius: 5px;
-    padding: 10px;
     cursor: pointer;
-    text-align: right;  
-    padding-left: 5px;
-    
+    text-align: center;
+    width: 150px;
+    height: 40px;
+
 }
+
 .table-main {
-    width: 81%;
+    width: 83%;
     margin: 0 auto;
     overflow: auto;
     
+
 }
 
 .table {
     width: 100%;
-    border-collapse: separate;
-    border-spacing: 0 15px;
-    /* min-width: 1000px; */
-    background-color: #42515f;
-    
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+
 
 }
 
-td, th {
-    text-align: left;
+td {
+    text-align: center;
     padding: 5px 8px;
     /* border: 1px solid #dddddd; */
+    /* border: 1px solid #E3E3E3; */
+    
+    
 }
 
 th {
-    border-radius: 3px 3px 0px 0px;
-    text-align: left;
+    background: #42515F 0% 0% no-repeat padding-box;
+    opacity: 1;
     font: normal normal medium 18px/24px Roboto;
     letter-spacing: 0px;
-    color: grey;
     text-transform: uppercase;
-    color: #dddddd;
-    opacity: .8;
-    border: 0px solid #dddddd;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 1;
+    width:200px;
+    height: 40px;
+   
+    
+   
+}
+tr:not(:first-child) {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #e3e3e3;
+    border-radius: 3px;
 }
 
+td {
+    font: normal normal normal 14px/21px Roboto;
+    letter-spacing: 0px;
+    color: #3d3d3d;
+    opacity: 1;
+}
+td:first-child {
+    display: flex;
+    align-items: center;
+}
+
+td img:first-child {
+    margin-right: 10px;
+}
+
+td img {
+    cursor: pointer;
+}
