@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Details</title>
+    <link rel="stylesheet" href="..\Style\dashbord.css">
+    <link rel="stylesheet" href="..\Style\employe_form.css">
+    <script src="..\Script\dashborad.js"></script>
+</head>
+
+<body>
+    <header class="header-content header">
+        <div class="logo-content">
+            <img src="..\assets\images\logo.png" alt="logo">
+            <div>
+                <span class="emp-text">Employee</span><br>
+                <span class="emp-payroll">Payroll</span>
+            </div>
+        </div>
+    </header>
+    <div class="main-content">
+        <form class="header-content">
+            <div class="emp-detail-text">Employee Details</div>
+             <a href="employee_form.html" class="add-button" onclick="addEmployee(event)">
+                <img src="..\assets\icons\add-24px.svg" alt="">Add User</a>
+         </div>
+         <div class="table-main">
+
+                <table id="display" class="table"
+                     table border="1">
+                        <tr>
+                            <th>Name</th>
+                            <th>Gender</th>
+                            <th>Department</th>
+                            <th>Salary</th>
+                            <th>Start Date</th>
+                             <th>Actions</th>
+                        </tr>
+                    
+                </table>
+         </div>
+    </div>
+</body>
+
+</html>
