@@ -49,7 +49,6 @@ body {
 }
 
 .form-content {
-    /* min-height: calc(100% - 80px); */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,13 +57,6 @@ body {
 
 }
 
-/* .form-content {
-    display: flex;
-    flex-direction: row;
-   
-    align-items: center;
-    border: 0px solid green;
-} */
 .form {
     width: 55%;
     padding: 44px 60px;
@@ -83,9 +75,6 @@ body {
     opacity: 1;
     padding-bottom: 20px;
 }
-
-
-
 .label {
     min-width: 140px;
     padding-left: 10;
@@ -102,7 +91,6 @@ label {
     opacity: 1;
     font-family: Roboto;
 }
-
 .input {
     width: 80%;
     padding: 12px;
@@ -110,7 +98,6 @@ label {
     border-radius: 4px;
     resize: vertical;
 }
-
 .profile-radio-content {
     display: flex;
     flex-direction: row;
@@ -121,26 +108,19 @@ label {
     display: flex;
     flex-direction: row;
     align-items: center;
-
-
 }
-
 .profile {
     width: 40px;
     border-radius: 50%;
     margin-left: 1px;
     padding-left: 15px;
-
-
 }
-
 .buttonParent {
     display: flex;
     margin-bottom: 10px;
     justify-content: space-between;
     margin-top: 20px;
 }
-
 .button {
     width: 150px;
     height: 40px;
@@ -152,8 +132,6 @@ label {
     background: #E2E2E2 0% 0% no-repeat padding-box;
     border: 1px solid #969696;
     border-radius: 5px;
-    
-
 }
 
 .row-content {
@@ -161,14 +139,10 @@ label {
     flex-direction: row;
     margin-top: 20px;
 }
-
-
-
 textarea {
     width: 80%;
     padding-top: 20px;
 }
-
 select {
 
     width: 130px;
@@ -182,9 +156,7 @@ select {
     letter-spacing: 0px;
     color: #42515F;
     opacity: 1;
-
 }
-
 .salary {
     width: 341px;
     height: 50px;
@@ -192,8 +164,5 @@ select {
 }
 
 .date {
-
     gap: 20px;
-
-
 }
