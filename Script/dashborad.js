@@ -1,3 +1,4 @@
+
 $(function () {
     $.ajax({
         url: 'http://localhost:3000/employee',
@@ -22,8 +23,6 @@ $(function () {
                 actions.append($('<img>').attr('src', '../assets/icons/create-black-18dp.svg').attr('data-id', employee.id).click(function () {
                     var employeeId = $(this).attr('data-id');
                     editEmployee(employeeId);
-
-
                 }));
                 actions.append($('<img>').attr('src', '../assets/icons/delete-black-18dp.svg').attr('data-id', employee.id).click(function () {
                     var employeeId = $(this).attr('data-id');
@@ -45,6 +44,7 @@ $(function () {
 function editEmployee(employeeId) {
     console.log(employeeId);
     localStorage.setItem('id', employeeId);
+    location.replace("/Templets/update_form.html")
 }
 
 function deleteEmployee(employeeId) {
@@ -63,3 +63,4 @@ function deleteEmployee(employeeId) {
 function addEmployee() {
     window.location.href = 'Templets\employee_form.html'
 }
+

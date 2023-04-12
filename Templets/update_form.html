@@ -11,6 +11,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src="../Script/employee_form.js"></script>
     <script src="../Script/update_Form.js"></script>
+    <script src="../Script/dashborad.js"></script>
 
     <title>Employee Payroll Form</title>
 </head>
@@ -60,7 +61,6 @@
                     </label>
                 </div>
             </div>
-
             <div class="row-content">
                 <label class="label text" for="gender">Gender</label>
                 <div>
@@ -91,7 +91,6 @@
 
             <div class="row-content">
                 <label class="label text" for="Salary"> Salary:</label>
-                <div class="salary">
                     <select name="salary" id="salary">
                         <option value="salary">Salary</option>
                         <option value="10000">10000</option>
@@ -100,9 +99,6 @@
                         <option value="40000">40000</option>
                         <option value="50000">50000</option>
                     </select>
-                </div>
-
-
             </div>
             <div class="row-content">
                 <label class="label text" for="date">Start Date:</label>
@@ -180,8 +176,7 @@
                 <div class=" cancel-button button"><a href="dashbord.html">Cancel</a>
                 </div>
                 <div >
-                    <button type="submit" class="button " onclick="employee()"
-                        id="submitButton">Submit</button>
+                    <button type="submit" class="button " onclick="updateEmployee()" id="submitButton">Update</button>
                     <button type="reset" class="  button">Reset</button>
                 </div>
             </div>

@@ -10,6 +10,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <link rel="stylesheet" href="..\Style\employe_form.css">
     <script src="../script/dashborad.js"></script>
+    <script src="../Script/update_Form.js"></script>
 </head>
 
 <body>
@@ -26,10 +27,9 @@
         <form class="header-content">
             <div class="emp-detail-text">Employee Details</div>
              <a href="employee_form.html" class="add-button" onclick="addEmployee(event)">
-                <img src="..\assets\icons\add-24px.svg" alt="">Add User</a>
+                <img style="padding-top: 7px;" src="..\assets\icons\add-24px.svg" alt="">Add User</a>
          </div>
          <div class="table-main">
-
                 <table id="display" class="table"
                      table >
                         <tr>
@@ -40,10 +40,12 @@
                             <th>Start Date</th>
                              <th>Actions</th>
                         </tr>
-                    
                 </table>
          </div>
     </div>
+    <script>
+        var nextId = 1;
+        var activatedId = 0;
+    </script>
 </body>
-
 </html>
