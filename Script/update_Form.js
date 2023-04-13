@@ -1,4 +1,3 @@
-
 const setValues = (id, value) => {
     document.getElementById(id).textContent = value
 }
@@ -34,7 +33,7 @@ $(function () {
         success: function (empData) {
             setTextValue("name", empData.name);
             setValues("notes", empData.notes);
-            setValues("salary", empData.salary)
+            setValues("mysalary", empData.salary)
             let date = stringifyDate(empData.startDate).split(" ")
             setTextValue("date", date[0]);
             setTextValue("month", date[1]);
@@ -62,7 +61,7 @@ function updateEmployee() {
     var department = $('input[name="department"]:checked').val();
     console.log(department);
 
-    var salary = $('#salary').val();
+    var salary = $('#mysalary').val();
     console.log(salary);
 
     var day = $('#date').val();
@@ -78,7 +77,7 @@ function updateEmployee() {
         "profileUrl": image,
         "gender": gender,
         "departMent": department,
-        "salary": salary,
+        "mysalary": salary,
         "startDate": day + ' ' + month + ' ' + year,
         "notes": note
     }
@@ -98,4 +97,3 @@ function updateEmployee() {
     })
 
 }
-

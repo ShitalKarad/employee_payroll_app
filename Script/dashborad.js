@@ -16,7 +16,7 @@ $(function () {
                 ));
                 row.append($('<td>').text(employee.gender));
                 row.append($('<td>').text(employee.departMent));
-                row.append($('<td>').text(employee.salary));
+                row.append($('<td>').text(employee.mysalary));
                 row.append($('<td>').text(employee.startDate));
                 var actions = $('<td>');
 

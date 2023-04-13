@@ -1,53 +1,111 @@
 .main-content {
     display: flex;
     flex-direction: column;
-    background-color: #f7f7f7;
+    background: #F7F7F7 0% 0% no-repeat padding-box;
     padding: 30px 0 10px;
     box-sizing: border-box;
+    
+}
+
+.body {
+    width: 1320px;
+    height: 2080px;
+    /* UI Properties */
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+    opacity: 1;
+   
+}
+
+.logo {
+    width: 110px;
+    height: 50px;
+    display: flex;
+}
+
+.header {
+    width: 1420px;
+    height: 50px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: flex;
+    margin-left: 100px;
+    margin-bottom: 10px;
+}
+
+.text {
+    display: inline-block;
+}
+
+.payroll {
+    width: 70px;
+    margin-top: 0px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal bold 22px/25px Montserrat;
+    letter-spacing: 0px;
+    color: #42515F;
+    text-transform: capitalize;
+}
+
+.employee-text {
+    width: 80px;
+
+    /* UI Properties */
+    text-align: left;
+    font: normal normal bold 22px/25px Montserrat;
+    letter-spacing: 0px;
+    color: #82A70C;
+    text-transform: capitalize;
 }
 
 .header-content {
+    width: 90%;
+    height: 37px;
+    text-align: left;
+    font: normal normal bold 28px/25px Roboto;
+    letter-spacing: 0px;
+    color: #42515F;
+    opacity: 1;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    width: 99%;
-    padding: 0px 10px;
 }
 
-.emp-detail-text {
-    font: normal normal bold 24px/25px Roboto;
+.emp-detail {
+    width: 1000px;
+    height: 37px;
     text-align: left;
-    padding: 0px 10px;
-    width: 71%;
-
+    font: normal normal bold 24px/20px Roboto;
+    letter-spacing: 0px;
+    color: #42515F;
+    opacity: 1;
+    margin-left: 100px;
 }
 
 .add-button {
+    width: 180px;
+    height: 50px;
+    background: #82A70C 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    text-align: center;
     font: normal normal normal 22px/29px Roboto;
     letter-spacing: 0px;
     color: #FFFFFF;
-    background-color: #82a70c;
-    border-radius: 5px;
-    cursor: pointer;
-    text-align: center;
-    width: 150px;
-    height: 40px;
-    text-align: center;
-    padding-bottom: 9px;
+    opacity: 1;
+
+
 }
-.table.table .form-control {
-    height: 32px;
-    line-height: 32px;
-    box-shadow: none;
-    border-radius: 2px;
-}
+
+
 .table.table td a.edit {
     color: #FFC107;
 }
+
 .table-main {
     width: 83%;
-    margin: 0 auto;
+    margin-top: 40px;
     overflow: auto;
+    margin-left: 100px;
 
 
 }
@@ -56,7 +114,7 @@
     width: 100%;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
-    border-collapse:collapse ;
+    border-collapse: collapse;
 
 }
 
@@ -96,21 +154,22 @@ td {
 
 td:first-child {
     display: flex;
-    align-items: center; 
+    align-items: center;
 }
+
 /* tr td img:first-child{
     width: 35px;
 } */
-td img:first-child { 
+td img:first-child {
     margin-right: 10px;
     padding-right: 10px;
     cursor: pointer;
-    
+
 }
+
 td img:last-child {
     margin-right: 10px;
     padding-right: 8px;
     cursor: pointer;
-    width: 25  px;
+    width: 25 px;
 }
-

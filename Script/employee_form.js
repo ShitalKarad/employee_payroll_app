@@ -11,7 +11,7 @@ function employee(){
   var department = $('input[name="department"]:checked').val();
   console.log(department);
 
-  var salary = $('#salary').val();
+  var salary = $('#mysalary').val();
   console.log(salary);
 
   var day = $('#date').val();
@@ -27,7 +27,7 @@ function employee(){
     "profileUrl": image,
     "gender": gender,
     "departMent": department,
-    "salary": salary,
+    "mysalary": salary,
     "startDate": day + ' ' + month + ' ' + year,
     "notes": note
   }
