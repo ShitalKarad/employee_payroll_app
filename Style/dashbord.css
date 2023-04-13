@@ -35,6 +35,8 @@
 
 .text {
     display: inline-block;
+    align-items: center;
+    
 }
 
 .payroll {
@@ -42,10 +44,10 @@
     margin-top: 0px;
     /* UI Properties */
     text-align: left;
-    font: normal normal bold 22px/25px Montserrat;
+    font: normal normal bold 21px/18px Montserrat;
     letter-spacing: 0px;
     color: #42515F;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 .employee-text {
@@ -53,10 +55,10 @@
 
     /* UI Properties */
     text-align: left;
-    font: normal normal bold 22px/25px Montserrat;
+    font: normal normal bold 21px/18px Montserrat;
     letter-spacing: 0px;
     color: #82A70C;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 .header-content {
@@ -83,15 +85,16 @@
 }
 
 .add-button {
-    width: 180px;
-    height: 50px;
+    width: 130px;
+    height: 45px;
     background: #82A70C 0% 0% no-repeat padding-box;
     border-radius: 5px;
     text-align: center;
-    font: normal normal normal 22px/29px Roboto;
+    font: normal normal normal 20px/19px Roboto;
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
+    padding-bottom: 5px;
 
 
 }
